@@ -1,0 +1,39 @@
+
+<?php $__env->startSection('content'); ?>
+
+	<div class="column_12 padding">
+		<h3>Welcome, <?php echo $schoolname; ?>!
+
+		<h5>Registered Students</h5>
+
+		<table>
+			<tr>
+				<th>Name</th>
+				<th>Grade</th>
+				<th>Event 1</th>
+				<th>Event 2</th>
+				<th>Event 3</th>
+				<th>Event 4</th>
+				<th>Event 5</th>
+				<th>Event 6</th>
+				<th>Event 7</th>
+				<th>Delete</th>
+			</tr>
+			<?php foreach ($students as $student): ?> 
+			<tr>
+				<td><?php echo $student->firstname; ?> <?php echo $student->lastname; ?></td>
+				<td><?php echo $student->grade; ?></td>
+				<td><?php echo $student->event1; ?></td>
+				<td><?php echo $student->event2; ?></td>
+				<td><?php echo $student->event3; ?></td>
+				<td><?php echo $student->event4; ?></td>
+				<td><?php echo $student->event5; ?></td>
+				<td><?php echo $student->event6; ?></td>
+				<td><?php echo $student->event7; ?></td>
+				<td class="align right"><a href="<?php echo URL::asset('school/deletestudent'); ?>/<?php echo $student->id; ?>"><span class="icon remove"></span></a></td>
+			</tr>
+			<?php endforeach; ?>
+		</table>
+	</div>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('school.base', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

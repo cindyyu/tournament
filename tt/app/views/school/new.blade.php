@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>TAMS Tournament</title>
+		<meta name="description" content="TAMS Tournament">
+		<meta name="author" content="Cindy Yu">
+		<link rel="stylesheet" href="{{ URL::asset('css/tuktuk.css') }}">
+		<link rel="stylesheet" href="{{ URL::asset('css/tuktuk.icons.css') }}">
+		<link rel="stylesheet" href="{{ URL::asset('css/tuktuk.theme.css') }}">
+		<link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
+	  	<!--[if lt IE 9]>
+	  	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	  	<![endif]-->
+	  	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	  	<script src="{{ URL::asset('js/tuktuk.js') }}"></script>
+	 	<script src="{{ URL::asset('js/script.css') }}"></script>
+	</head>
+	<body id="student">
+	 	<section class="bck padding">
+	 		<div class="row">
+	 			<div id="login" class="boxshadow radius padding column_6 offset_3">
+	 				<img class="width100" src="{{ URL::asset('css/images/logo.png') }}" alt="Logo" />
+	 				<h4>School Registration</h4>
+	 				{{ Form::open(array('url' => 'school/new', 'method' => 'post')) }}
+	 				{{ $alert }}
+	 					<h5>School Information</h5>
+	 					<label for="name">Name</label>
+	 					<input name="name" type="text" id="name" placeholder="Name of School" required>
+	 					<label for="schoolcode">Schoolcode</label><br />
+	 					Students at your school will need this schoolcode to register for events.
+	 					<input name="schoolcode" type="text" id="schoolcode" placeholder="Make up a secret code for your school." required>
+	 					<label for="address">Address</label>
+	 					<input name="address" type="text" id="address" placeholder="Address" required>
+	 					<label for="city">City</label>
+	 					<input name="city" type="text" id="city" placeholder="City" required>
+	 					<label for="state">State</label>
+	 					<input name="state" type="text" id="state" placeholder="State" required>
+	 					<label for="zipcode">Zipcode</label>
+	 					<input name="zipcode" type="text" id="zipcode" placeholder="zipcode" required>
+
+	 					<h5>Login Information</h5>
+	 					<label for="username">username</label>
+	 					<input name="username" type="text" id="username" placeholder="Username" required>
+	 					<label for="password">password</label>
+	 					<input name="password" type="text" value="" id="password" required>
+
+	 					<h5>Coach Information</h5>
+	 					<label for="coach">name</label>
+	 					<input name="coach" type="text" id="coach" placeholder="Coach Name" required>
+	 					<label for="email">email</label>
+	 					<input name="email" type="text" id="email" placeholder="Coach Email" required>
+	 					<label for="phone">phone (optional)</label>
+	 					<input name="phone" type="text" id="phone" placeholder="Coach Phone">
+
+	 					<button>Create Account</button>
+	 				{{ Form::close() }}
+	 			</div>
+	 		</div>
+	 	</section>
+	</body>
+</html>

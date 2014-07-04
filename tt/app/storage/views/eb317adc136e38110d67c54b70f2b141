@@ -1,0 +1,33 @@
+
+<?php $__env->startSection('content'); ?>
+	
+	<?php echo Form::open(array('url' => 'addnewstudent', 'method' => 'post')); ?>
+	
+	School
+	<select name="school">
+		<?php foreach ($schools as $school): ?>
+		<option value="<?php echo $school->schoolcode; ?>"><?php echo $school->name; ?></option>
+		<?php endforeach; ?>
+	</select>
+
+	<?php echo Form::label('username', 'username'); ?>	
+	<?php echo Form::text('username'); ?>
+	<?php echo Form::label('password', 'password'); ?>	
+	<?php echo Form::password('password'); ?>
+	<?php echo Form::label('firstname', 'firstname'); ?>	
+	<?php echo Form::text('firstname'); ?>
+	<?php echo Form::label('lastname', 'lastname'); ?>	
+	<?php echo Form::text('lastname'); ?>
+	<?php echo Form::label('email', 'email'); ?>	
+	<?php echo Form::text('email'); ?>
+	<?php echo Form::label('phone', 'phone'); ?>	
+	<?php echo Form::text('phone'); ?>
+	<?php echo Form::label('schoolcode', 'schoolcode'); ?>	
+	<?php echo Form::text('schoolcode'); ?>
+
+	<?php echo Form::submit('Click Me!'); ?>
+
+	<?php echo Form::close(); ?>
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('base', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

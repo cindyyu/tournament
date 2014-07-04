@@ -1,0 +1,9 @@
+
+<?php $__env->startSection('content'); ?>
+	
+	<?php foreach ($students as $student): ?> 
+		<?php echo $student->firstname; ?>
+	<?php endforeach; ?>
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('base', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

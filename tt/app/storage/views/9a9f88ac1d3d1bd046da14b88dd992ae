@@ -1,0 +1,11 @@
+<?php echo Form::open( array('url' => '/student/login', 'method' => 'post') ); ?>
+  
+    <p><?php echo Form::label('username', 'Username'); ?></p>
+    <p><?php echo Form::text('username'); ?></p>
+    
+    <p><?php echo Form::label('password', 'Password'); ?></p>
+    <p><?php echo Form::password('password'); ?></p>
+    
+    <p><?php echo Form::submit('Login'); ?></p>
+    
+<?php echo Form::close(); ?>

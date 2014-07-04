@@ -1,0 +1,30 @@
+[2013-10-19 16:54:47] log.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in /home/givecode/tt/app/controllers/StudentController.php:99
+Stack trace:
+#0 /home/givecode/tt/app/controllers/StudentController.php(99): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', '/home/givecode/...', 99, Array)
+#1 [internal function]: StudentController->edit()
+#2 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('edit', Array)
+#4 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'edit', Array)
+#5 [internal function]: Illuminate\Routing\{closure}()
+#6 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/givecode/public_html/tamstournament.tk/register/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2013-10-19 16:55:21] log.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in /home/givecode/tt/app/controllers/StudentController.php:99
+Stack trace:
+#0 /home/givecode/tt/app/controllers/StudentController.php(99): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', '/home/givecode/...', 99, Array)
+#1 [internal function]: StudentController->edit()
+#2 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('edit', Array)
+#4 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'edit', Array)
+#5 [internal function]: Illuminate\Routing\{closure}()
+#6 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/givecode/public_html/tamstournament.tk/register/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []

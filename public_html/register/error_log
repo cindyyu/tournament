@@ -1,0 +1,2 @@
+[23-Aug-2013 02:07:34 UTC] PHP Fatal error:  Call to a member function first() on a non-object in /home/givecode/tt/app/controllers/StudentController.php on line 77
+[23-Aug-2013 02:07:36 UTC] PHP Fatal error:  Call to a member function first() on a non-object in /home/givecode/tt/app/controllers/StudentController.php on line 77

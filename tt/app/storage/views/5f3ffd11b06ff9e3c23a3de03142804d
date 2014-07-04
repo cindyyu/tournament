@@ -1,0 +1,17 @@
+
+<?php $__env->startSection('content'); ?>
+	
+	<?php
+		$url = "school/editstudent/$id";
+	?>
+	<?php echo Form::open(array('url' => $url, 'method' => 'post')); ?>
+	
+	<?php echo Form::label('firstname', 'firstname'); ?>	
+	<?php echo Form::text('firstname', $student->firstname); ?>
+
+	<?php echo Form::submit('Click Me!'); ?>
+
+	<?php echo Form::close(); ?>
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('base', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

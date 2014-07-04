@@ -1,0 +1,137 @@
+[2013-08-20 03:11:40] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/givecode/public_html/tamstournament.tk/register/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-08-20 03:23:51] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/givecode/public_html/tamstournament.tk/register/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-08-20 03:47:18] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/givecode/public_html/tamstournament.tk/register/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-08-20 03:47:21] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/givecode/public_html/tamstournament.tk/register/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-08-20 03:50:53] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/givecode/public_html/tamstournament.tk/register/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-08-20 03:50:56] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/givecode/public_html/tamstournament.tk/register/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-08-20 16:06:29] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/givecode/public_html/tamstournament.tk/register/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-08-20 16:06:33] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/givecode/public_html/tamstournament.tk/register/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-08-20 16:06:43] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/givecode/public_html/tamstournament.tk/register/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-08-20 16:06:47] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'givecode_tt.users' doesn't exist' in /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Database/Connection.php:271
+Stack trace:
+#0 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Database/Connection.php(271): PDO->prepare('select * from `...')
+#1 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Database/Connection.php(520): Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select * from `...', Array)
+#2 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Database/Connection.php(276): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#3 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(966): Illuminate\Database\Connection->select('select * from `...', Array)
+#4 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(956): Illuminate\Database\Query\Builder->runSelect()
+#5 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(943): Illuminate\Database\Query\Builder->getFresh(Array)
+#6 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(397): Illuminate\Database\Query\Builder->get(Array)
+#7 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(112): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(387): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 /home/givecode/tt/app/controllers/StudentController.php(7): Illuminate\Database\Eloquent\Model::all()
+#10 [internal function]: StudentController->newStudent()
+#11 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#12 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('newStudent', Array)
+#13 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'newStudent', Array)
+#14 [internal function]: Illuminate\Routing\{closure}()
+#15 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#16 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#17 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#18 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#19 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#20 /home/givecode/public_html/tamstournament.tk/register/index.php(49): Illuminate\Foundation\Application->run()
+#21 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'givecode_tt.users' doesn't exist (SQL: select * from `users`) (Bindings: array (
+))' in /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Database/Connection.php:555
+Stack trace:
+#0 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Database/Connection.php(528): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'select * from `...', Array)
+#1 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Database/Connection.php(276): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(966): Illuminate\Database\Connection->select('select * from `...', Array)
+#3 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(956): Illuminate\Database\Query\Builder->runSelect()
+#4 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(943): Illuminate\Database\Query\Builder->getFresh(Array)
+#5 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(397): Illuminate\Database\Query\Builder->get(Array)
+#6 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(112): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#7 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(387): Illuminate\Database\Eloquent\Builder->get(Array)
+#8 /home/givecode/tt/app/controllers/StudentController.php(7): Illuminate\Database\Eloquent\Model::all()
+#9 [internal function]: StudentController->newStudent()
+#10 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#11 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('newStudent', Array)
+#12 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'newStudent', Array)
+#13 [internal function]: Illuminate\Routing\{closure}()
+#14 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#15 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#16 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#18 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#19 /home/givecode/public_html/tamstournament.tk/register/index.php(49): Illuminate\Foundation\Application->run()
+#20 {main} [] []
+[2013-08-20 17:26:27] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/givecode/public_html/tamstournament.tk/register/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-08-20 17:26:29] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/givecode/tt/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/givecode/public_html/tamstournament.tk/register/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []

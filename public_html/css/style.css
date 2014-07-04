@@ -1,0 +1,302 @@
+* {
+	margin: 0; 
+	padding: 0;
+}
+
+body {
+	font-family: Ubuntu, Arial, Helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #002545;
+}
+
+.width100 {
+	width: 100%;
+	display: block;
+}
+
+.bg.tetris {
+	background: url('images/tetrisbg.gif');
+}
+.bg.grey {
+	background-color:#EFEFEF;
+}
+.bg.green {
+	background-color: #D3EDAD;
+}
+.bg.yellow {
+	background-color: #fff577;
+}
+.bg.orange {
+	background-color: #FFB86D;
+}
+.bg.teal {
+	background-color: #C5EAE3;
+}
+.bg.white {
+	background-color: #fff;
+}
+
+.color.tint {
+	color: #000000;
+	opacity: 0.5;
+}
+.color.white {
+	color: #fff;
+}
+.color.green {
+	color: #B2DD73;
+}
+.color.yellow {
+	color: #fff577;
+}
+.color.orange {
+	color: #f69a2f;
+}
+.color.teal {
+	color: #9edbd0;
+}
+
+.align.center {
+	text-align: center; 
+}
+.align.right {
+	text-align: right; 
+}
+.align.left {
+	text-align: left;
+}
+.float.right {
+	float: right; 
+}
+.float.left {
+	float: left;
+}
+
+.radius {
+	border-radius: 5px;
+}
+
+.icon.big {
+	font-size: 4em;
+	margin: 0 15px 0 0;
+}
+
+div.parallax {
+	background-attachment: fixed;
+	position: relative;
+	padding: 3em;
+}
+
+section {
+	width: 92%;
+	padding: 3% 4%;
+	border-bottom: 2px dotted white;
+}
+	section div {
+		position: relative; 
+	}
+	section div div {
+		height: 3em;
+		display: inline-block;
+		vertical-align: middle;
+	}
+section div.row {
+	padding-bottom: 2%;
+}
+section div.row div.blurb {
+	padding: 1%;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	font-size: .8em;
+	height: auto;
+	position: relative;
+	padding-bottom: 20px;
+}
+
+	section div.row div.blurb a.downloadlink {
+		text-transform: uppercase;
+		border-radius: 5px;
+		padding: 4px;
+		margin: 1em auto;
+	}
+	section div.row div.blurb a.downloadlink:hover {
+		background-color: rgba(255,255,255,0.5);
+	}
+section div.row div.twothird, section div.row div.third {
+	height: auto;
+	display: inline-block;
+	padding: 1%;
+	vertical-align: top;
+}
+
+#header img {
+	height: 3em;
+}
+	#header a {
+		display:inline-block;
+		padding: 0 10px;
+		vertical-align: top;
+	}
+	#header a:hover .icon {
+		color: #cdcdcd;
+	}
+	#header .icon {
+		font-size: 2em;
+	}
+	nav {
+		font-size: .9em;
+	}
+
+#intro {
+	background-image: url('images/parallaxbg.png');
+	height: 250px;
+}
+	#intro a {
+		position: absolute; 
+		bottom: 2em; 
+		right: 2em;
+	}
+	#intro img {
+		position: absolute; 
+		bottom: 0; 
+		right: 2em;
+		height: 90%;
+	}
+.headerparallax { 
+	height: 150px; 
+	background-size: cover; 
+	color: #fff; 
+	background-position: center center; 
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+}
+#competition {
+	background-image: url('images/photo_competition.jpg');
+}
+#information {
+	background-image: url('images/photo_information.jpg');
+}
+#aboutus {
+	background-image: url('images/photo_aboutus.jpg');
+}
+#results {
+	background-image: url('images/photo_results.jpg');
+}
+#register {
+	background-image: url('images/photo_register.jpg'); 
+}
+
+table {
+	border-spacing: 0;
+	width: 100%;
+	font-size: .9em;
+}
+	table tr td, table tr th {
+		text-align: center;
+		padding: 15px; 
+	}
+	table tr td:first-child, table tr th:first-child {
+		text-align: right;
+		min-width: 100px;
+	}
+
+.step {
+	font: 3em Sansita One, Georgia, Times, serif; 
+	color: #fff;
+	float: left; 
+	padding: 0 .5em .2em 0; 
+}
+
+a.loginlink {
+	display: block; 
+	font-size: 1.5em;
+	border-radius: .5em;
+	background: #fff;
+	text-align: center;
+	padding: .5em;
+	margin: .5em;
+}
+	a.loginlink:hover {
+		background: #f69a2f;
+		color: #fff;
+	}
+
+ul {
+	margin: .5em;
+}
+li {
+	margin: 0 1em; 
+}
+
+.pastphotos img {
+	width: 12%;
+}
+
+div#cred {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	opacity: 0.25;
+	font-size: .75em;
+}
+
+a.faq {
+	display: block;
+	padding: .2em 0;
+}
+
+div.faq {
+	height: auto; 
+}
+
+section.faq div div {
+	height: auto;
+	margin-bottom: .5em;
+	display: none;
+	color: #969696;
+}
+	section.faq div h3 {
+		margin: 1em 0;
+	}
+
+@media (max-width: 700px) {
+	nav {
+		display: block;
+		text-align: center; 
+	}
+	nav a {
+		width: 15%;
+		margin-top: 1em;
+	}
+	section div div {
+		display: block;
+		clear: both; 
+	}
+	section div.row div.twothird, section div.row div.third {
+		width: 100%;
+	}
+	#intro img {
+		display: none; 
+	}
+
+}
+@media (min-width: 701px) {
+	nav {
+		float: right; 
+		text-align: center;
+	}
+	section div.row div.blurb {
+		width: 27%;
+		margin: 2%;
+	}
+	section div.row div.twothird {	
+		width: 60%;
+	}
+	section div.row div.third {
+		width: 30%;
+	}
+
+}

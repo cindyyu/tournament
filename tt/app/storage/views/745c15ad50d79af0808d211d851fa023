@@ -1,0 +1,11 @@
+
+<?php $__env->startSection('content'); ?>
+	<?php if (Session::get('loggedin') == 1): ?>
+	good you're logged in 
+.. welcome
+	<?php echo $student->firstname; ?>
+	<?php else: ?> 
+	nope u suck 
+	<?php endif; ?>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('base', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?> 

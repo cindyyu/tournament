@@ -1,0 +1,49 @@
+
+<?php $__env->startSection('content'); ?>
+
+
+	<div class="column_12">
+		<?php echo $alert; ?>
+		<h3>Edit Information</h3>
+		<?php echo Form::open(array('url' => '/school/editinfo', 'method' => 'post')); ?>
+			<div class="row">
+				<div class="column_6">
+					<h5>School Information</h5>
+					<input name="id" type="hidden" id="id" value="<?php echo $user->id; ?>">
+					<label for="name">Name</label>
+					<input name="name" type="text" id="name" value="<?php echo $user->name; ?>">
+					<label for="schoolcode">Schoolcode</label>
+					<input name="schoolcode" type="text" id="schoolcode" value="<?php echo $user->schoolcode; ?>">
+					<label for="address">Address</label>
+					<input name="address" type="text" id="address" value="<?php echo $user->address; ?>">
+					<label for="city">City</label>
+					<input name="city" type="text" id="city" value="<?php echo $user->city; ?>">
+					<label for="state">State</label>
+					<input name="state" type="text" id="state" value="<?php echo $user->state; ?>">
+					<label for="zipcode">Zipcode</label>
+					<input name="zipcode" type="text" id="zipcode" value="<?php echo $user->zipcode; ?>">
+				</div>
+				<div class="column_6">
+					<h5>Login Information</h5>
+					<label for="username">username</label>
+					<input name="username" type="text" id="username" value="<?php echo $user->username; ?>">
+					<label for="password">password</label>
+					<input name="password" type="password" value="" id="password">
+
+					<h5>Coach Information</h5>
+					<label for="coach">name</label>
+					<input name="coach" type="text" id="coach" value="<?php echo $user->coach; ?>">
+					<label for="email">email</label>
+					<input name="email" type="text" id="email" value="<?php echo $user->email; ?>">
+					<label for="phone">phone</label>
+					<input name="phone" type="text" id="phone" value="<?php echo $user->phone; ?>">
+
+					<button class="floatright">Save Changes</button>
+				</div>
+			</div>
+		<?php echo Form::close(); ?>
+
+	</div>
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('school.base', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
